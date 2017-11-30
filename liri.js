@@ -1,4 +1,4 @@
-//code needed to grab the data from keys.js.
+//-- code needed to grab the data from keys.js.
 var keys = require('./keys.js');
 //store the keys in variables.
 var request = require('request');
@@ -7,12 +7,12 @@ var spotify = require('spotify');
 var client = new twitter(keys.twitterKeys);
 var fs = require('fs');
 
-//Stored argument's array
+//-- Stored argument's array --//
 var nodeArgv = process.argv;
 var command = process.argv[2];
-//movie or song
+//-- movie or song --//
 var x = "";
-//attaches multiple word arguments
+//-- attaches multiple word arguments --//
 for (var i=3; i<nodeArgv.length; i++){
   if(i>3 && i<nodeArgv.length){
     x = x + "+" + nodeArgv[i];
@@ -21,7 +21,7 @@ for (var i=3; i<nodeArgv.length; i++){
   }
 }
 
-//switch 
+//-- switch --//
 switch(command){
   case "my-tweets":
     showTweets();
