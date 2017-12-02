@@ -1,18 +1,17 @@
-//-- code needed to grab the data from keys.js.
+//Grab data from keys.js
 var keys = require('./keys.js');
-//store the keys in variables.
 var request = require('request');
 var twitter = require('twitter');
 var spotify = require('spotify');
 var client = new twitter(keys.twitterKeys);
 var fs = require('fs');
 
-//-- Stored argument's array --//
+//Stored argument's array
 var nodeArgv = process.argv;
 var command = process.argv[2];
-//-- movie or song --//
+//movie or song
 var x = "";
-//-- attaches multiple word arguments --//
+//attaches multiple word arguments
 for (var i=3; i<nodeArgv.length; i++){
   if(i>3 && i<nodeArgv.length){
     x = x + "+" + nodeArgv[i];
@@ -21,7 +20,7 @@ for (var i=3; i<nodeArgv.length; i++){
   }
 }
 
-//-- switch --//
+//switch case
 switch(command){
   case "my-tweets":
     showTweets();
@@ -60,7 +59,7 @@ function showTweets(){
       for(var i = 0; i<tweets.length; i++){
         var date = tweets[i].created_at;
         console.log("@JLush76: " + tweets[i].text + " Created At: " + date.substring(0, 19));
-        console.log("-----------------------");
+        console.log("------------------------------------");
         
         //-- adds text to log.txt file --//
         fs.appendFile('log.txt', "@JLush76: " + tweets[i].text + " Created At: " + date.substring(0, 19));
@@ -95,7 +94,7 @@ function spotifySong(song){
         fs.appendFile('log.txt', "-----------------------");
       }
     } else{
-      spotify.search("The Sign");
+      console.log('Error occured.')
     }
   });
 }
@@ -152,3 +151,4 @@ function doThing(){
     spotifySong(txt[1]);
   });
 }
+
