@@ -10,8 +10,7 @@
     "semver": "^5.4.1",
     "spotify": "^0.3.0",
     "twitter": "^1.7.1"
-   },
-   
+  },
   "repository": {
     "type": "git",
     "url": "git+https://ljreader.github.io/liri-node-app/"
