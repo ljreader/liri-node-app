@@ -1,0 +1,92 @@
+User Command: C:\Program Files\nodejs\node.exe,c:\Users\LJRea\UofU\homework\week10\liri-node-app\liri.js
+
+LIRI Response:
+
+Usage:
+    node liri.js my-tweets
+    node liri.js spotify-this-song "<song_name>"
+    node liri.js movie-this "<movie_name>"
+    node liri.js do-what-it-says
+
+User Command: node liri.js my-tweets
+
+LIRI Response:
+
+------------------------
+User Tweets:
+------------------------
+
+Created on: Fri Dec 01 13:55:06 +0000 2017
+Tweet content: Looking forward to checking this out! AWS Cloud9: https://t.co/cyqmy6olKC via @awscloud
+------------------------
+Created on: Fri Nov 24 03:16:20 +0000 2017
+Tweet content: @AR22recruiter Mashed potatoes 😊😊😊
+------------------------
+Created on: Thu Nov 16 07:09:10 +0000 2017
+Tweet content: This guy gives hilarious advice on how to deal with e-mail spammers! Watch for seriously good laugh :-).
+
+https://t.co/dFWBnoqG9H
+------------------------
+Created on: Tue Nov 14 03:03:16 +0000 2017
+Tweet content: @GinnyGhezzo Nice 🤓
+------------------------
+Created on: Tue Nov 14 01:28:03 +0000 2017
+Tweet content: @BrianLangAuthor @GinnyGhezzo You know it!!
+------------------------
+Created on: Tue Nov 14 01:19:39 +0000 2017
+Tweet content: RT @GinnyGhezzo: I had a surprise #blockchain question when presenting at Duke. Thanks to @_angrbrd I had the answer in my backpocket!! #wo…
+------------------------
+Created on: Tue Nov 14 01:19:36 +0000 2017
+Tweet content: @GinnyGhezzo Awesome! What was the question?
+------------------------
+Created on: Wed Nov 08 06:42:56 +0000 2017
+Tweet content: If you attended the All Things Open 2017 Boxcar Social, please read this to help someone in our community who was b… https://t.co/3XRiimzxrU
+------------------------
+Created on: Wed Nov 01 03:26:57 +0000 2017
+Tweet content: RT @BCBSNC: #Employees across the company worked together w/ #nonprofits to help solve a “challenge question” for each of them. #LifeatBlue…
+------------------------
+Created on: Thu Oct 26 16:15:10 +0000 2017
+Tweet content: RT @BCBSNC: Happy #NationalPumpkinDay! Blue Cross NCers paint pumpkins pink for #breastcancer awareness. #LifeAtBlueCrossNC https://t.co/BH…
+------------------------
+Created on: Thu Oct 26 05:32:34 +0000 2017
+Tweet content: What’s in your node_modules? Interesting read! https://t.co/BfmfAJuQIy
+------------------------
+Created on: Wed Oct 25 00:25:38 +0000 2017
+Tweet content: It was such a treat to have a featured speaker session at this conference. I am truly grateful. Thank you… https://t.co/A0ShDGoZV7
+------------------------
+Created on: Wed Oct 25 00:21:04 +0000 2017
+Tweet content: Our FLOSS desktop booted!!! @AllThingsOpen https://t.co/G0avWKvZH5
+------------------------
+Created on: Wed Oct 25 00:19:51 +0000 2017
+Tweet content: Finally installed the cooling fan at the FLOSS desktops session @AllThingsOpen 2017! https://t.co/W040Xjp2rK
+------------------------
+Created on: Wed Oct 25 00:18:11 +0000 2017
+Tweet content: Yana takes the lead wiring up the hard drive at the FLOSS Desktops session @AllThingsOpen 2017! https://t.co/1RHNcguFVk
+------------------------
+Created on: Wed Oct 25 00:16:19 +0000 2017
+Tweet content: Great seeing friends at the conference!!! @AllThingsOpen is always full of awesome networking opportunities! https://t.co/d09KFZqvBM
+------------------------
+Created on: Tue Oct 24 15:48:43 +0000 2017
+Tweet content: @christo4ferris explaining Hyperledger Composer at @AllThingsOpen 2017. Check out this awesome tool at… https://t.co/mNuz7MNFpg
+------------------------
+Created on: Tue Oct 24 15:36:10 +0000 2017
+Tweet content: @sopeauh It was great to meet you as well! Thanks so much for connecting!
+------------------------
+Created on: Mon Oct 23 23:34:58 +0000 2017
+Tweet content: @christo4ferris @Hyperledger Thanks for coming today! Appreciate the support!
+------------------------
+Created on: Mon Oct 23 23:31:36 +0000 2017
+Tweet content: RT @christo4ferris: Packed house for Anya’s preso on @Hyperledger Fabric v1.0 #ATO2017 #blockchain #opensource https://t.co/vP6Dyj1pdc
+------------------------
+
+User Command: node liri.js spotify-this-song <song_name> 
+
+User Command: node liri.js spotify-this-song nevermind 
+
+User Command: node liri.js spotify-this-song nevermind 
+
+User Command: node liri.js spotify-this-song nevermind 
+
+ERROR: No song info retrieved, please check the spelling of the song name!User Command: node liri.js spotify-this-song 
+
+ERROR: No song info retrieved, please check the spelling of the song name!ERROR: No song info retrieved, please check the spelling of the song name!ERROR: No song info retrieved, please check the spelling of the song name!

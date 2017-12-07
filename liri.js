@@ -70,9 +70,6 @@ function retrieveTweets() {
 // spotifySong will retrieve information on a song from Spotify
 function spotifySong(song) {
 	// Append the command to the log file
-	fs.appendFile('./log.txt', 'User Command: node liri.js spotify-this-song ' + song + '\n\n', (err) => {
-		if (err) throw err;
-	});
 
 	// If no song is provided, LIRI defaults to 'The Sign' by Ace Of Base
 	var search;
@@ -93,7 +90,8 @@ function spotifySong(song) {
 			});
 			return;
 	    } else {
-			var songInfo = data.tracks.items[0];
+      var songInfo = data.tracks;
+      console.log(data.tracks)
 			if (!songInfo) {
 				var errorStr2 = 'ERROR: No song info retrieved, please check the spelling of the song name!';
 
